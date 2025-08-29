@@ -67,7 +67,7 @@ Do you want to call ${phoneNumber}?`);
       const historyCard = document.createElement("div");
       historyCard.className = "bg-white shadow-lg rounded-xl p-3 mb-2";
      historyCard.innerHTML = `
-  <p class="font-semibold text-sm mb-1">${card.querySelector("h2").textContent} Number</p>
+  <p class="font-semibold text-sm mb-1">${card.querySelector("h2").textContent}</p>
   <div class="flex justify-between items-center text-sm font-medium">
     <span>${phoneNumber}</span>
     <span>${time}</span>
